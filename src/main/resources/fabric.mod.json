@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "averys-mod",
+	"version": "${version}",
+	"name": "Avery's Mod",
+	"description": "This is a mod made by Avery",
+	"authors": [
+		"Avery Chen"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/averys-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.avery.averysmod.AverysMod"
+		],
+		"client": [
+			"net.avery.averysmod.AverysModClient"
+		],
+		"fabric-datagen": [
+			"net.avery.averysmod.AverysModDataGenerator"
+		]
+	},
+	"mixins": [
+		"averys-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
