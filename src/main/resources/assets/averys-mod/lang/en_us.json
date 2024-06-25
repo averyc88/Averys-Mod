@@ -1,0 +1,14 @@
+{
+  "item.averys-mod.ruby": "Ruby",
+  "item.averys-mod.raw_ruby": "Raw Ruby",
+  "item.averys-mod.purple_sapphire": "Purple Sapphire",
+  "item.averys-mod.raw_purple_sapphire": "Raw Purple Sapphire",
+
+
+  "block.averys-mod.ruby_block": "Block of Ruby",
+  "block.averys-mod.raw_ruby_block": "Block of Raw Ruby",
+  "block.averys-mod.purple_sapphire_block": "Block of Purple Sapphire",
+  "block.averys-mod.raw_purple_sapphire_block": "Block of Raw Purple Sapphire",
+
+  "itemgroup.ruby": "Mod Items"
+}
