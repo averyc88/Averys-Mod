@@ -1,5 +1,5 @@
 # Avery's First Mod
-Configured for Minecraft 1.20.1
+Configured for Minecraft 1.20.1.
 
 Courtesy of Kaupenjoe's Modding Tutorial!
   - Used Ruby, Raw Ruby, Block of Ruby, and Block of Raw Ruby textures. No credit taken for these textures.
