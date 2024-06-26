@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "averys-mod:purple_sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "averys-mod:purple_sapphire",
+    "count": 9
+  }
+}
