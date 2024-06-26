@@ -23,6 +23,14 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_PURPLE_SAPPHIRE);
                         entries.add(ModBlocks.PURPLE_SAPPHIRE_BLOCK);
                         entries.add(ModBlocks.RAW_PURPLE_SAPPHIRE_BLOCK);
+                        entries.add(ModBlocks.PURPLE_SAPPHIRE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_PURPLE_SAPPHIRE_ORE);
+                        entries.add(ModBlocks.END_PURPLE_SAPPHIRE_ORE);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.NETHER_RUBY_ORE);
+                        entries.add(ModBlocks.END_RUBY_ORE);
+
                     }).build());
 
     public static void registerItemGroups() {

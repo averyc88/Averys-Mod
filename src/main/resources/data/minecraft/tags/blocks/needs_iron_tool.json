@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "averys-mod:ruby_block",
+    "averys-mod:ruby_ore",
+    "averys-mod:deepslate_ruby_ore",
+    "averys-mod:nether_ruby_ore",
+    "averys-mod:end_ruby_ore",
+
+    "averys-mod:raw_purple_sapphire_block"
+  ]
+}
