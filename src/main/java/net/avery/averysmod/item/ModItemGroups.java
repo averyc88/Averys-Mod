@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.PURPLE_SAPPHIRE);
                         entries.add(ModItems.RAW_PURPLE_SAPPHIRE);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.SAPPHIRE_DETECTOR);
+                        entries.add(ModItems.SHAMAN_APPLE);
 
                         entries.add(ModBlocks.PURPLE_SAPPHIRE_BLOCK);
                         entries.add(ModBlocks.RAW_PURPLE_SAPPHIRE_BLOCK);

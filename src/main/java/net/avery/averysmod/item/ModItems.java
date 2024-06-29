@@ -2,6 +2,8 @@ package net.avery.averysmod.item;
 
 import net.avery.averysmod.AverysMod;
 import net.avery.averysmod.item.custom.MetalDetectorItem;
+import net.avery.averysmod.item.custom.SapphireDetectorItem;
+import net.avery.averysmod.item.custom.ShamanAppleItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -17,7 +19,10 @@ public class ModItems {
     public static final Item PURPLE_SAPPHIRE = registerItem("purple_sapphire", new Item(new FabricItemSettings()));
     public static final Item RAW_PURPLE_SAPPHIRE = registerItem("raw_purple_sapphire", new Item(new FabricItemSettings()));
 
+    public static final Item SHAMAN_APPLE = registerItem("shaman_apple", new ShamanAppleItem(new FabricItemSettings().food(ModFoodComponents.SHAMAN_APPLE)));
+
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item SAPPHIRE_DETECTOR = registerItem("sapphire_detector", new SapphireDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
