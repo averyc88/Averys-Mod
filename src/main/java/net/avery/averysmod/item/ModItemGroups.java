@@ -11,17 +11,13 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AverysMod.MOD_ID, "ruby"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
-                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.RUBY);
-                        entries.add(ModItems.RAW_RUBY);
-                        entries.add(ModBlocks.RUBY_BLOCK);
-                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
+    public static final ItemGroup SAPPHIRE_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(AverysMod.MOD_ID, "sapphire"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.sapphire"))
+                    .icon(() -> new ItemStack(ModItems.PURPLE_SAPPHIRE)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.PURPLE_SAPPHIRE);
                         entries.add(ModItems.RAW_PURPLE_SAPPHIRE);
-                        entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.SAPPHIRE_DETECTOR);
                         entries.add(ModItems.SHAMAN_APPLE);
 
@@ -30,10 +26,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURPLE_SAPPHIRE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_PURPLE_SAPPHIRE_ORE);
                         entries.add(ModBlocks.END_PURPLE_SAPPHIRE_ORE);
-                        entries.add(ModBlocks.RUBY_ORE);
-                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
-                        entries.add(ModBlocks.NETHER_RUBY_ORE);
-                        entries.add(ModBlocks.END_RUBY_ORE);
 
                     }).build());
 
