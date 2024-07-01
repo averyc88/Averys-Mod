@@ -1,4 +1,6 @@
 # Avery's First Mod
+Minecraft mod adding a variety of features.
+
 Configured for Minecraft 1.20.1.
 
 Courtesy of Kaupenjoe's Modding Tutorial!
