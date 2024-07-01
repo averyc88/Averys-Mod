@@ -14,19 +14,14 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
     public static final Item PURPLE_SAPPHIRE = registerItem("purple_sapphire", new Item(new FabricItemSettings()));
     public static final Item RAW_PURPLE_SAPPHIRE = registerItem("raw_purple_sapphire", new Item(new FabricItemSettings()));
 
     public static final Item SHAMAN_APPLE = registerItem("shaman_apple", new ShamanAppleItem(new FabricItemSettings().food(ModFoodComponents.SHAMAN_APPLE)));
 
-    public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
     public static final Item SAPPHIRE_DETECTOR = registerItem("sapphire_detector", new SapphireDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RUBY);
-        entries.add(RAW_RUBY);
         entries.add(PURPLE_SAPPHIRE);
         entries.add(RAW_PURPLE_SAPPHIRE);
     }

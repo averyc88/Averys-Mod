@@ -1,17 +1,12 @@
 {
-  "item.averys-mod.ruby": "Ruby",
-  "item.averys-mod.raw_ruby": "Raw Ruby",
   "item.averys-mod.purple_sapphire": "Purple Sapphire",
   "item.averys-mod.raw_purple_sapphire": "Raw Purple Sapphire",
-  "item.averys-mod.metal_detector": "Metal Detector",
   "item.averys-mod.sapphire_detector": "Sapphire Detector",
   "item.averys-mod.shaman_apple": "Shaman's Apple",
 
   "tooltip.averys-mod.sapphire_detector.tooltip": "Finds Sapphires Underground.",
   "tooltip.averys-mod.shaman_apple.appleInfo": "A rare, powerful fruit.",
 
-  "block.averys-mod.ruby_block": "Block of Ruby",
-  "block.averys-mod.raw_ruby_block": "Block of Raw Ruby",
   "block.averys-mod.purple_sapphire_block": "Block of Purple Sapphire",
   "block.averys-mod.raw_purple_sapphire_block": "Block of Raw Purple Sapphire",
 
@@ -19,10 +14,5 @@
   "block.averys-mod.deepslate_purple_sapphire_ore": "Deepslate Purple Sapphire Ore",
   "block.averys-mod.end_purple_sapphire_ore": "End Stone Purple Sapphire Ore",
 
-  "block.averys-mod.ruby_ore": "Ruby Ore",
-  "block.averys-mod.deepslate_ruby_ore": "Deepslate Ruby Ore",
-  "block.averys-mod.end_ruby_ore": "End Stone Ruby Ore",
-  "block.averys-mod.nether_ruby_ore": "Nether Ruby Ore",
-
-  "itemgroup.ruby": "Mod Items"
+  "itemgroup.sapphire": "Sapphire Items"
 }
