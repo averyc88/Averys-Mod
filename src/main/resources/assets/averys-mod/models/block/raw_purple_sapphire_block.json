@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "averys-mod:block/raw_purple_sapphire_block"
-  }
-}
