@@ -11,9 +11,8 @@ Current Features:
     - Full blocks and raw block can be crafted with 9 of their respective materials. Can also be converted back into 9.
 
 - Added a sapphire detector. Detects sapphires ore below the block it is used on.
+    - Cratfted with one iron ingot, one redstone, one stick, one string, and one purple sapphire.
 - Added the Shaman's Apple. Grants effects and restores hunger.
-    - Crafted with four purple sapphires in a plus shape: " # "
-                                                          "#a#"
-                                                          " # "
+    - Crafted with four purple sapphires and an apple.
 
 - All textures are original!
