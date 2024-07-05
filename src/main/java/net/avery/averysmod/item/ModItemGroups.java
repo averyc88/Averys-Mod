@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_PURPLE_SAPPHIRE);
                         entries.add(ModItems.SAPPHIRE_DETECTOR);
                         entries.add(ModItems.SHAMAN_APPLE);
+                        entries.add(ModItems.RUBY_STAFF);
 
                         entries.add(ModBlocks.PURPLE_SAPPHIRE_BLOCK);
                         entries.add(ModBlocks.RAW_PURPLE_SAPPHIRE_BLOCK);

@@ -20,6 +20,7 @@ public class ModItems {
     public static final Item SHAMAN_APPLE = registerItem("shaman_apple", new ShamanAppleItem(new FabricItemSettings().food(ModFoodComponents.SHAMAN_APPLE)));
 
     public static final Item SAPPHIRE_DETECTOR = registerItem("sapphire_detector", new SapphireDetectorItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item RUBY_STAFF = registerItem("ruby_staff", new Item(new FabricItemSettings().maxCount(1)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PURPLE_SAPPHIRE);
