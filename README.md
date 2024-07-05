@@ -4,6 +4,8 @@ Configured for Minecraft 1.20.1.
 Courtesy of Kaupenjoe's Modding Tutorial!
 
 Current Features:
+- Mixin exists and used to render 3d models. 
+
 - Purple Sapphires
     - Added respective raw, raw block, full blocks, and ore blocks
     - Raw purple sapphires can be smelted in furnaces and blast furnaces into purple sapphires
@@ -12,6 +14,7 @@ Current Features:
 
 - Added a sapphire detector. Detects sapphires ore below the block it is used on.
     - Cratfted with one iron ingot, one redstone, one stick, one string, and one purple sapphire.
+    - Custom 3d model
 - Added the Shaman's Apple. Grants effects and restores hunger.
     - Crafted with four purple sapphires and an apple.
 
